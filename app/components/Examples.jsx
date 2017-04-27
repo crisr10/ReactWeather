@@ -11,7 +11,10 @@ var React = require('react');
 // Same functionality as commented out code, but using arrow function instead
 var Examples = (props) => {
 	return (
-		<h2>This is the EXAMPLES component</h2>
+		<div>
+			<h2>This is the EXAMPLES component</h2>
+			<h3>Welcome to the examples page</h3>
+		</div>
 	)
 };
 
